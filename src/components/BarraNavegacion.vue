@@ -22,24 +22,30 @@
     url('/Earthly-Powers-Bookshelf-header-new-1500px-red.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
-  padding: 2rem 0;
-  min-height: 240px;
+  padding: 1.25rem 0;
+  min-height: 180px;
+  display: grid;
+  place-items: center;
 }
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  width: min(1080px, 100%);
+  margin: 0 auto;
 }
 .site-title {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
 }
 .site-subtitle {
   margin: 0.35rem 0 0;
-  color: #dbeafe;
-  font-size: 0.95rem;
+  color: rgba(219, 234, 254, 0.92);
+  font-size: 0.9rem;
 }
 .main-nav {
   display: flex;
